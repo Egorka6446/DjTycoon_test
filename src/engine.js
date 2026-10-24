@@ -1,10 +1,10 @@
 export const SAVE_KEY = 'afterhours-save-v1';
 export const MAX_OFFLINE = 8 * 60 * 60;
 export const GEAR = [
-  { id: 'decks', name: 'DJ-контроллер', category: 'ТОЧНОСТЬ', description: 'Чище переходы. Выше гонорары.', icon: 'decks', base: 120, income: .18, fee: .12 },
-  { id: 'speakers', name: 'Студийные мониторы', category: 'ЗВУК', description: 'Бас, который чувствуют все.', icon: 'speaker', base: 220, income: .28, fee: .10 },
-  { id: 'studio', name: 'Домашняя студия', category: 'РОЯЛТИ', description: 'Твои треки работают за тебя.', icon: 'wave', base: 350, income: .85, fee: 0 },
-  { id: 'lights', name: 'Свет и атмосфера', category: 'ШОУ', description: 'Больше эмоций. Больше фанатов.', icon: 'spark', base: 480, income: .32, fee: .08 },
+  { id: 'decks', name: 'Pioneer DJ DDJ-FLX4', category: 'ПЕРВЫЙ ПУЛЬТ', description: 'Компактный контроллер для первых сетов.', icon: 'decks', base: 120, income: .18, fee: .12 },
+  { id: 'speakers', name: 'KRK Rokit 5 G4', category: 'МОНИТОРЫ', description: 'Тёплый низ и честный звук в комнате.', icon: 'speaker', base: 220, income: .28, fee: .10 },
+  { id: 'studio', name: 'Pioneer DJ DDJ-REV7', category: 'ПРО-СЕТАП', description: 'Виниловый контроль и уверенный скретч.', icon: 'wave', base: 350, income: .85, fee: 0 },
+  { id: 'lights', name: 'Pioneer CDJ-3000 + DJM-A9', category: 'ХЕДЛАЙНЕР', description: 'Клубная кабина для больших ночей.', icon: 'spark', base: 480, income: .32, fee: .08 },
 ];
 export const VENUES = [
   { id: 'bedroom', name: 'Квартирник', subtitle: 'СВОИ ЛЮДИ, ПЕРВЫЙ СЕТ', fans: 0, fee: 160, gain: 18, bpm: 112, color: '#bcf77b', emoji: '⌂', tag: 'Начало пути', crowd: '12 друзей' },
